@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cashier Dashboard</title>
+    <link rel="stylesheet" href="cashier_dashboard.css">
+    <link rel="stylesheet" href="login.html">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body class="text-bg-dark">
+
+
+    <div id="items" class="card card-body text-bg-dark">
+        <header class="p-3 text-bg-dark">
+            <div class="container">
+                <div
+                    class="d-flex flex-wrap align-items-left justify-content-center justify-content-lg-start text-bg-dark">
+
+                    <form class="col-12 col-lg-5 mb-3 mb-lg-0 me-lg-3" role="search">
+                        <input type="search" class="form-control" placeholder="Search..." aria-label="Search"
+                            id="searchBar">
+                    </form>
+
+                    <div class="text-end">
+                        <button type="button" class="btn me-2" id="btnSearch">Search</button>
+                    </div>
+                </div>
+        </header>
+        <div id="items2">
+            <br>
+            <h1 id="headders">Burgers</h1>
+            <br>
+            <div class="album py-15 text-bg-dark" id="list">
+                <div class="container">
+                    <div class="row row-cols-6 ">
+                        <div class="col">
+                            <div class="card shadow-sm text-bg-dark" style="border-radius: 20px;" id="cards">
+                                <img src="img/burger.png" style="border-radius: 20px;">
+                                <div class="card-body text-bg-dark">
+                                    <div class="d-flex justify-content-between align-items-center ">
+                                        <div class="btn-group ">
+                                            <button type="button" class="btn btn-sm btn-outline-warning"
+                                                id="burgerIC"></button>
+                                            <button type="button" class="btn btn-sm btn-outline-warning"
+                                                id="burgerDis"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <h1 id="headders">Submarines</h1>
+            <br>
+            <div class="album py-15 text-bg-dark" id="list">
+                <div class="container">
+                    <div class="row row-cols-6 ">
+                        <div class="col">
+                            <div class="card shadow-sm text-bg-dark" style="border-radius: 20px;" id="cards">
+                                <img src="img/submarine.png" style="border-radius: 20px;">
+                                <div class="card-body text-bg-dark">
+                                    <div class="d-flex justify-content-between align-items-center ">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-warning"
+                                                id="subIC"></button>
+                                            <button type="button" class="btn btn-sm btn-outline-warning"
+                                                id="subDis"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <h1 id="headders">Fries</h1>
+            <br>
+            <div class="album py-15 text-bg-dark" id="list">
+                <div class="container">
+                    <div class="row row-cols-6 ">
+                        <div class="col">
+                            <div class="card shadow-sm text-bg-dark" style="border-radius: 20px;" id="cards">
+                                <img src="img/fried.png" style="border-radius: 20px;">
+                                <div class="card-body text-bg-dark">
+                                    <div class="d-flex justify-content-between align-items-center ">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-warning"
+                                                id="friesIC"></button>
+                                            <button type="button" class="btn btn-sm btn-outline-warning"
+                                                id="friesDis"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <h1 id="headders">Pasta</h1>
+            <br>
+            <div class="album py-15 text-bg-dark" id="list">
+                <div class="container">
+                    <div class="row row-cols-6 ">
+                        <div class="col">
+                            <div class="card shadow-sm text-bg-dark" style="border-radius: 20px;" id="cards">
+                                <img src="img/pasta.png" style="border-radius: 20px;">
+                                <div class="card-body text-bg-dark">
+                                    <div class="d-flex justify-content-between align-items-center ">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-warning"
+                                                id="pastaIC"></button>
+                                            <button type="button" class="btn btn-sm btn-outline-warning"
+                                                id="pastaDis"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <h1 id="headders">Chicken</h1>
+            <br>
+            <div class="album py-15 text-bg-dark" id="list">
+                <div class="container">
+                    <div class="row row-cols-6 ">
+                        <div class="col">
+                            <div class="card shadow-sm text-bg-dark" style="border-radius: 20px;" id="cards">
+                                <img src="img/chicken.png" style="border-radius: 20px;">
+                                <div class="card-body text-bg-dark">
+                                    <div class="d-flex justify-content-between align-items-center ">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-warning"
+                                                id="chickenIC"></button>
+                                            <button type="button" class="btn btn-sm btn-outline-warning"
+                                                id="chickenDis"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <h1 id="headders">Beverages</h1>
+            <br>
+            <div class="album py-15 text-bg-dark" id="list">
+                <div class="container">
+                    <div class="row row-cols-6 ">
+                        <div class="col">
+                            <div class="card shadow-sm text-bg-dark" style="border-radius: 20px;" id="cards">
+                                <img src="img/beverage.png" style="border-radius: 20px;">
+                                <div class="card-body text-bg-dark">
+                                    <div class="d-flex justify-content-between align-items-center ">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-warning"
+                                                id="beverageIC"></button>
+                                            <button type="button" class="btn btn-sm btn-outline-warning"
+                                                id="beverageDis"></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="operatingArea">
+        <div id="buttons">
+            <div class="btn-group" role="group" id="btnGroup">
+                <button type="button" class="btnMe" id="btnCustomerHandler">Customer Handler</button>
+                <button type="button" class="btnMe" id="btnViewOrders">View Orders</button>
+                <button type="button" class="btnMe" id="buttonset">Log Out</button>
+            </div>
+        </div>
+
+        <div>
+
+            <div class="col">
+
+                <div class="card mb-4 rounded-3 shadow-sm" id="orderDetails">
+                </div>
+                <div class="card align-items-center text-bg-dark">
+                    <div>
+                        <button type="button" class="btnMe" id="buttonset">Add Extra Item</button>
+                        <button type="button" class="btnMe" id="buttonset">Cancel Order</button>
+                        <button type="button" class="btnMe" id="buttonset">Place Oder</button>
+                        <button type="button" class="btnMe" id="buttonset">Pay For Order</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="cashier_dashboard.js"></script>
+</body>
+
+</html>

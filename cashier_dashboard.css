@@ -1,0 +1,67 @@
+#items{
+    height: max-content;
+    width: 60%;
+    float: left;
+    border-right-color: #f1f2f6;
+        
+}
+#items2{
+    max-height: 640px;
+    overflow-y: scroll;
+}
+
+#operatingArea{
+    width: 38%;
+    float: left;
+}
+
+#btnGroup{
+    width: 100%;
+}
+
+#buttons{
+    width: 100%;
+    height: 50%;
+}
+
+.btnMe{
+    transition: all 0.3s;
+    padding: auto;
+    background-color: #3742fa;
+    border-radius: 15px;
+    margin: 8px;
+    color: white;
+    font-size: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#btnSearch{
+    transition: all 0.3s;
+    background-color: #3742fa;
+    color: white;
+}
+
+#searchBar:hover{
+    transform: scale(1.05);
+}
+
+.btnMe:hover{
+    transform: scale(1.1);
+}
+
+#cards:hover{
+    transform: scale(1.1);
+}
+
+#btnSearch:hover{
+    transform: scale(1.1);
+}
+
+#orderDetails{
+    height: 23rem;
+    max-height: 23rem;
+    overflow-y: scroll;
+    margin: 8px;
+    border-radius: 15px;
+    background-color: #f1f2f6;
+}

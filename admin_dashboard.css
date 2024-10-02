@@ -1,0 +1,67 @@
+
+#div1{
+    float: left;
+    width: 33.33%;
+}
+
+#div2{
+    float: center;
+    width: 33.33%;
+}
+
+#div3{
+    float: right;
+    width: 33.33%;
+}
+
+#btnItems{
+    text-align: center;
+    color: white;
+    background-color: blue;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 1.5% 0.5%;
+}
+
+#btnCashiers{
+    text-align: center;
+    color: white;
+    background-color: blue;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 1.5% 0.5%;
+}
+
+#btnReports{
+    text-align: center;
+    color: white;
+    background-color: blue;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 1.5% 0.5%;
+}
+
+#btnLogOut{
+    text-align: center;
+    color: white;
+    background-color: blue;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 1.5% 0.5%;
+}
+
+#btnItems:hover{
+    transform: scale(1.1);
+}
+
+#btnCashiers:hover{
+    transform: scale(1.1);
+}
+
+#btnReports:hover{
+    transform: scale(1.1);
+}
+
+#btnLogOut:hover{
+    transform: scale(1.1);
+}
