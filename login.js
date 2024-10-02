@@ -24,5 +24,6 @@ document.getElementById("cashierLogIn").onclick = function(){
 document.getElementById("btnHome").onclick = function(){
 
         window.location.href="index.html";
+        console.log("mp");
 
 }
