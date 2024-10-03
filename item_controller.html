@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Items</title>
+
+    <link rel="stylesheet" href="item_controller.css">
+    <link rel="stylesheet" href="admin_dashboard.html">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body class="text-bg-dark">
+    <div id="header">
+        <h1>🍔Mos Burgers🍔</h1>
+        <p>Take Your Favourit Taste...</p>
+        <hr class="custom-line">
+        <br>
+    </div>
+    <div id="viewItems">
+
+        <header class="p-3 text-bg-dark">
+            <div class="container">
+                <div
+                    class="d-flex flex-wrap align-items-left justify-content-center justify-content-lg-start text-bg-dark">
+
+                    <form class="col-12 col-lg-5 mb-3 mb-lg-0 me-lg-3" role="search">
+                        <input type="search" class="form-control" class="itemInputs" placeholder="Search..."
+                            aria-label="Search" id="searchBar">
+                    </form>
+
+                    <div class="text-end">
+                        <button type="button" class="btn me-2" id="btnSearch">Search</button>
+                    </div>
+                </div>
+        </header>
+
+        <div class="card" id="tableCard">
+            <table class="table text-bg-dark" id="tblItemInfo">
+                <thead>
+                    <tr>
+                        <th scope="col">Item Code</th>
+                        <th scope="col">Item Name</th>
+                        <th scope="col">QTY</th>
+                        <th scope="col">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <div class="card-content" id="ItemControling">
+        <h1 style="text-align: center;">Item Controlling Unit</h1>
+        <br>
+            <input type="text" class="itemInputs" placeholder="Item Code" id="itemCode">
+            <input type="text" class="itemInputs" placeholder="Item Name" id="itemName">
+            <input type="text" class="itemInputs" placeholder="Price" id="price">
+            <input type="text" class="itemInputs" placeholder="Discount" id="discount">
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="item_controller.js"></script>
+</body>
+
+</html>
