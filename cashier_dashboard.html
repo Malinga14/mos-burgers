@@ -35,19 +35,19 @@
             <br>
             <h1 id="headders">Burgers</h1>
             <br>
-            <div class="album py-15 text-bg-dark" id="list">
-                <div class="container">
-                    <div class="row row-cols-6 ">
-                        <div class="col">
-                            <div class="card shadow-sm text-bg-dark" style="border-radius: 20px;" id="cards">
-                                <img src="img/burger.png" style="border-radius: 20px;">
-                                <div class="card-body text-bg-dark">
-                                    <div class="d-flex justify-content-between align-items-center ">
-                                        <div class="btn-group ">
-                                            <button type="button" class="btn btn-sm btn-outline-warning"
-                                                id="burgerIC"></button>
-                                            <button type="button" class="btn btn-sm btn-outline-warning"
-                                                id="burgerDis"></button>
+            <div>
+                <div class="album py-15 text-bg-dark" id="list">
+                    <div class="container">
+                        <div class="row row-cols-6 "  id="burger">
+                            <div class="col">
+                                <div class="card shadow-sm text-bg-dark" style="border-radius: 20px;" id="cards">
+                                    <img src="img/burger.png" style="border-radius: 20px;">
+                                    <div class="card-body text-bg-dark">
+                                        <div class="d-flex justify-content-between align-items-center ">
+                                            <div class="btn-group ">
+                                                <button type="button" class="btn btn-sm btn-outline-warning" id="burgerIC">${element.itemCode}</button>
+                                                <button type="button" class="btn btn-sm btn-outline-warning" id="burgerDis">Rs.${element.price}</button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -81,6 +81,7 @@
                     </div>
                 </div>
             </div>
+            
 
             <br>
             <h1 id="headders">Fries</h1>

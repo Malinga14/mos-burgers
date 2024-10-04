@@ -83,7 +83,6 @@
 
 .tr{
     transition: all 0.3s;
-    border-radius: 10px 0 0 10px;
 }
 .tr:hover{
     transform: scale(1.01);

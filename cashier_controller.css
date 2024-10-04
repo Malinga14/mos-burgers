@@ -48,10 +48,11 @@
     
 }
 
-#tblItemtblCashierInfoInfo{
+#tblCashierInfo{
     width: 100%;
     max-height: 500px;
     overflow-y: scroll;
+    overflow-x: scroll;
 }
 
 #tableCard{
@@ -83,7 +84,6 @@
 
 .tr{
     transition: all 0.3s;
-    border-radius: 10px 0 0 10px;
 }
 .tr:hover{
     transform: scale(1.01);
