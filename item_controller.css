@@ -9,11 +9,6 @@
     float: left;
 }
 
-#btnSearch{
-    color: white;
-    background-color: blue;
-}
-
 .cardItemView{
     min-height: 500px;
     max-height: 500px;
@@ -31,7 +26,7 @@
     background: transparent;
     backdrop-filter: blur(20px);
     color: white;
-    margin: 30px ;
+    margin: 25px ;
     
 }
 
@@ -65,4 +60,26 @@
     height: 600px;
     background-color: white;
     float: center;
+}
+
+.btn-primary{
+    transition: all 0.3s;
+    width: 124px;
+    
+}
+
+.btn-primary:hover{
+    transform: scale(1.1);
+}
+
+.btn-group{
+    padding: 10px 40px;
+}
+
+.tr{
+    transition: all 0.3s;
+    border-radius: 10px 0 0 10px;
+}
+.tr:hover{
+    transform: scale(1.02);
 }
