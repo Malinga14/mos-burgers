@@ -16,7 +16,7 @@ document.getElementById("cashierLogIn").onclick = function(){
     password = document.getElementById("password").value;
 
     if(password=="Mp123"){
-        window.location.href="cashier_dashboard.html";
+        window.location.href="user_menu.html";
     }
 
 }

@@ -1,5 +1,6 @@
 var itemsget;
 let body;
+var itemCodes =[];
 
 loadItemCards();
 document.getElementById("btnLogOut").onclick = function () {
@@ -17,8 +18,8 @@ function loadItemCards(){
 
     let cardBody = document.getElementById("burger");
     itemsget.forEach(element => {
-        console.log(element);
 
+        
     body += `
     <div class="col">
         <div class="card shadow-sm text-bg-dark" style="border-radius: 20px;" id="cards">
@@ -38,20 +39,14 @@ function loadItemCards(){
     cardBody.innerHTML = body;
 }
 
-function searchByID(){
+document.getElementById("burgerIC").onclick = function(){
     var itemC = document.getElementById("burgerIC").value;
     var itemsget=JSON.parse(localStorage.getItem("Items"));
 
-    console.log(itemsget+"first");
-    itemsget.forEach(element => {
-    for (var i = 0; i < element.length; i++) {
-        var key = localStorage.key(i);
-        var value = localStorage.getItem(key.itemCode);
+     itemsget.forEach(element => {
         
-        if (value === itemC) {
-            console.log(value);
-        }
-    }
-});
+        var filteredItems = itemsget.filter(itemC);
+        console.log(filteredItems);
+    });
 
 }

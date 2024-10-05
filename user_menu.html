@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="userstyles.css">
+    <title>MOS Burgers - Menu</title>
+    <style>
+        /* General Styles */
+    </style>
+</head>
+
+<body>
+    <header>
+        <p>MOS Burgers🍔</p>
+
+
+        <nav>
+            <button onclick="location.href='index.html'">Home</button>
+            <button onclick="location.href='user_menu.html'">Menu</button>
+            <button onclick="location.href='user_cart.html'">Order Now</button>
+            <button onclick="location.href='contact.html'">Contact Us</button>
+        </nav>
+    </header>
+
+
+
+    <main>
+        <section id="menu">
+            <h2>Available Menu Items</h2>
+            <div>
+                <button onclick="scrollToCategory('burgers')">Burgers</button>
+                <button onclick="scrollToCategory('submarines')">Submarines</button>
+                <button onclick="scrollToCategory('fries')">Fries</button>
+                <button onclick="scrollToCategory('pasta')">Pasta</button>
+                <button onclick="scrollToCategory('chicken')">Chicken</button>
+                <button onclick="scrollToCategory('beverages')">Beverages</button>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item Code</th>
+                        <th>Item Name</th>
+                        <th>Price (LKR)</th>
+                        <th>Discount</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="items-list">
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <script src="user_menu.js"></script>
+    <script>
+        function scrollToCategory(categoryId) {
+            const element = document.getElementById(categoryId);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    </script>
+</body>
+
+</html>
