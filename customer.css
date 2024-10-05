@@ -1,0 +1,117 @@
+#header{
+    width: 100%;
+    text-align: center;
+}
+
+#viewCustomers{
+    height: max-content;
+    width: 65%;
+    float: left;
+}
+
+.cardItemView{
+    min-height: 500px;
+    max-height: 500px;
+}
+
+.CustomerDetails{
+    position: relative;
+    width: 90%;
+    height: 20%;
+    font-size: 16px;
+    padding: 10px 10px;
+    border-bottom: 2px solid white;
+    border-radius: 20px;
+    border-color: transparent;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    color: white;
+    margin: 20px ;
+    transition: all 0.3s;
+    
+}
+
+.CustomerDetails:hover{
+    transform: scale(1.05);
+}
+
+#CustomerControling{
+    width: 30%;
+    float: right;
+    position: relative;
+    background: transparent;
+    border: 2px solid rgb(255, 225, 225);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    margin: 5px;
+    justify-content: center;
+    
+}
+
+#tblCustomerInfo{
+    width: 100%;
+    max-height: 500px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+#tableCard{
+    width: 95%;
+    margin: 25px;
+}
+
+#line{
+    display: flex;
+    width: 0.2%;
+    height: 600px;
+    background-color: white;
+    float: center;
+}
+
+.btn-primary{
+    transition: all 0.3s;
+    width: 124px;
+    
+}
+
+.btn-primary:hover{
+    transform: scale(1.1);
+}
+
+.btn-group{
+    padding: 10px 40px;
+}
+
+.tr{
+    transition: all 0.3s;
+}
+.tr:hover{
+    transform: scale(1.01);
+}
+
+.div1{
+    float: left;
+    width: 33.33%;
+}
+
+.div2{
+    float: center;
+    width: 33.33%;
+}
+
+.div3{
+    float: right;
+    width: 33.33%;
+}
+
+#btnBack{
+    float: left;
+    transition: all 0.3s;
+    border-radius: 5px;
+    border: o;
+    margin: 15px;
+}
+
+#btnBack:hover{
+    transform: scale(1.05);
+}

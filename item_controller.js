@@ -53,7 +53,7 @@ function loadItemTable(){
         console.log(element);
         
         body +=`
-        <tr>
+        <tr class="tr">
                         <th>${element.itemCode}</th>
                         <td>${element.itemName}</td>
                         <td>${element.qty}</td>

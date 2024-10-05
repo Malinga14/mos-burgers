@@ -4,13 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Customer</title>
-    <link rel="stylesheet" href="cashier_dashboard.html">
+    <link rel="stylesheet" href="customer.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
-<body>
+<body class="text-bg-dark">
 
-    <button class="btn-outline-primary" id="btnBackToCashier">Back</button>
+    <div id="header">
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-dark" id="btnBack">Back</button>
+            </div>
+            <div class="col">
+                <h1>🍔Mos Burgers🍔</h1>
+                <p>Take Your Favourit Taste...</p></div>
+            <div class="col">
+                
+            </div>
+        </div>        
+        <hr class="custom-line">
+        <br>
+    </div>
+    <div id="viewCustomers">
+        <div class="card" id="tableCard">
+            <table class="table text-bg-dark" id="tblCustomerInfo">                
+            </table>
+        </div>
+    </div>
+
+    <div class="card-content" id="CustomerControling">
+        <br>
+        <h1 style="text-align: center; margin: 5px;">Customer Controlling Unit</h1>
+        <br>
+        <input type="text" class="CustomerDetails" placeholder="Customer Id" id="id">
+        <input type="text" class="CustomerDetails" placeholder="Customer Name" id="name">
+        <input type="text" class="CustomerDetails" placeholder="Phone Number" id="phoneNo">
+        <input type="text" class="CustomerDetails" placeholder="Cashier e-mail" id="email">
+
+        <div class="btn-group" role="group" aria-label="Basic outlined example">
+            <button type="button" class="btn btn-primary" id="btnDelete">Delete</button>
+            <button type="button" class="btn btn-primary" id="btnUpdate">Updte</button>
+            <button type="button" class="btn btn-primary" id="btnAddCustomer">Add Customer</button>
+        </div>
+
+
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

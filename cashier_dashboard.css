@@ -1,3 +1,7 @@
+#header{
+    width: 100%;
+    text-align: center;
+}
 #items{
     height: max-content;
     width: 60%;
@@ -35,16 +39,6 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#btnSearch{
-    transition: all 0.3s;
-    background-color: #3742fa;
-    color: white;
-}
-
-#searchBar:hover{
-    transform: scale(1.05);
-}
-
 .btnMe:hover{
     transform: scale(1.1);
 }
@@ -64,4 +58,37 @@
     margin: 8px;
     border-radius: 15px;
     background-color: #f1f2f6;
+}
+
+#OrderControling{
+    width: 90%;
+    height: 500px;
+    float: center;
+    background: transparent;
+    border: 2px solid rgb(255, 225, 225);
+    border-radius: 20px;
+    margin: 20px;
+    overflow-y: scroll;
+    
+}
+
+.itemInputs{
+    position: relative;
+    width: 90%;
+    height: 20%;
+    font-size: 16px;
+    padding: 10px 10px;
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+    border-color: transparent;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    color: white;
+    margin: 15px ;
+    transition: all 0.3s;
+    
+}
+
+.itemInputs:hover{
+    transform: scale(1.05);
 }

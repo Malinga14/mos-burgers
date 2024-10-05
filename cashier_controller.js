@@ -52,7 +52,7 @@ function loadCashierTable(){
         console.log(element);
         
         body +=`
-        <tr>
+        <tr class="tr">
                         <th>${element.id}</th>
                         <td>${element.name}</td>
                         <td>${element.phoneNo}</td>

@@ -14,23 +14,24 @@
 
 <body class="text-bg-dark">
 
+    <div id="header"></div>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-dark" id="btnBack">Back</button>
+            </div>
+            <div class="col">
+                <h1>🍔Mos Burgers🍔</h1>
+                <p>Take Your Favourit Taste...</p></div>
+            <div class="col">
+                
+            </div>
+        </div>        
+        <hr class="custom-line">
+        <br>
+    </div>
+
 
     <div id="items" class="card card-body text-bg-dark">
-        <header class="p-3 text-bg-dark">
-            <div class="container">
-                <div
-                    class="d-flex flex-wrap align-items-left justify-content-center justify-content-lg-start text-bg-dark">
-
-                    <form class="col-12 col-lg-5 mb-3 mb-lg-0 me-lg-3" role="search">
-                        <input type="search" class="form-control" placeholder="Search..." aria-label="Search"
-                            id="searchBar">
-                    </form>
-
-                    <div class="text-end">
-                        <button type="button" class="btn me-2" id="btnSearch">Search</button>
-                    </div>
-                </div>
-        </header>
         <div id="items2">
             <br>
             <h1 id="headders">Burgers</h1>
@@ -197,8 +198,33 @@
         <div>
 
             <div class="col">
-
-                <div class="card mb-4 rounded-3 shadow-sm" id="orderDetails">
+                <div class="card-content" id="OrderControling">
+                    <br>
+                    <h1 style="text-align: center;">Order Controlling Unit</h1>
+                    <br>
+                    <div>
+                        <div class="tr">
+                            <label>Order ID :</label>
+                            <input type="text" class="itemInputs" placeholder="Order ID" id="itemCode">
+                        </div>
+                        <div class="tr">
+                            <label>Customer ID :</label>
+                            <input type="text" class="itemInputs" placeholder="Customer Name" id="itemName">
+                        </div>
+                        <div class="tr">
+                            <label>Item Code :</label>
+                            <input type="text" class="itemInputs" placeholder="Item Code" id="qty">
+                        </div>
+                        <div class="tr">
+                            <label>QTY :</label>
+                            <input type="text" class="itemInputs" placeholder="QTY" id="price">
+                        </div>
+                        <div class="tr">
+                            <label>Item Code</label>
+                            <input type="text" class="itemInputs" placeholder="Discount" id="discount">
+                        </div>
+                        
+                    </div>       
                 </div>
                 <div class="card align-items-center text-bg-dark">
                     <div>
